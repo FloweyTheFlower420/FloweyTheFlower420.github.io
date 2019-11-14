@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 .center {
 	text-align: center;
@@ -6,4 +6,32 @@
 
 .undertale {
     font-family: "Determination Mono";
+}
+
+.bar_bar {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+.bar_tag {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.codebox {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1000px;
+}
+
+.inline_codebox {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: auto;
+    display: inline-block;
 }
